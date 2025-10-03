@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -50,24 +53,33 @@ a:hover {
   justify-content: space-between;
 }
 
+.hero-section-right img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 img {
   width: 200px;
-  height: 100px;
-  background-color: brown;
+  height: 200px;
 }
 
 .hero-section-left {
-  width: 500px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 .hero-section-left button {
-  width: 125px;
+  width: fit-content;
   background-color: #3882f6;
   color: white;
   border-radius: 10px;
   padding: 5px 15px;
   font-size: 1.2rem;
+}
+
+.hero-section-left p {
+  line-height: 28px;
 }
